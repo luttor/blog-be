@@ -65,3 +65,5 @@ app.delete("/blogs/:id", (req, res) => {
     .then((result) => res.status(200).send())
     .catch((err) => console.error(err));
 });
+
+export default app;
