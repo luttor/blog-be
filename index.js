@@ -7,7 +7,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 
 const dbURI =
-  "mongodb+srv://xanderas90:a16543258a@cluster0.em3qhdj.mongodb.net/note-tuts?retryWrites=true&w=majority";
+  "mongodb+srv://ryuzaki:a16543258a@cluster0.em3qhdj.mongodb.net/note-tuts?retryWrites=true&w=majority";
 mongoose
   .connect(dbURI)
   .then((result) => {
